@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+#grid {
+    display: grid;
+    gap: 1px; 
+    background-color: #000; 
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cell.deleted {
+    background-color: rgb(100, 208, 109)
+}
+
+p#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
